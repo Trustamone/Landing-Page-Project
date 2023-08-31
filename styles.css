@@ -1,0 +1,147 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+body > section {
+    height: 10em;
+    border: solid 1px red;
+    
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    background-color: #1f2937;
+}
+
+
+.half-split {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+footer {
+    height: 30px;
+    margin-top: auto;
+    font-size: 8px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    height: 25px;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    font-size: 12px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+a {
+    font-size: 9px;
+    color: #e5e7eb;
+    text-decoration: none;
+    padding: 8px;
+}
+
+img {
+    height: 60%;
+    width: 85%;
+}
+
+div.image-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.half-split h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.half-split button {
+    width: 3.5rem;
+    height: 1rem;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 3px;
+    margin-top: 2px;
+    border: none;
+    font-size: .5em;
+    font-weight: 900;
+    padding: .3em;
+}
+
+.half-split {
+    margin: 0 0 0 3rem;
+    padding-top: 2rem;
+    border: solid 1px red;
+}
+
+.half-split p {
+    color: #e5e7eb;
+    font-size: 10px;
+    margin: 2px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+} 
+
+.images-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.images-container div span {
+    font-size: .4rem;
+    padding: 0 .6rem;
+    text-align: center;
+}
+
+.second span {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: .3rem 0;
+}
